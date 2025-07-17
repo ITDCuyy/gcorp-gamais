@@ -38,13 +38,13 @@ export function TopNav({
             <div className="flex h-16 w-16 items-center justify-center">
               <img
                 className="rounded-full"
-                src="/phiwiki.jpg"
-                alt="phiwiki"
+                src="/gcorp.webp"
+                alt="G-Corp ITB Logo"
                 width={128}
                 height={128}
               />
             </div>
-            <span className="font-bold max-lg:hidden">Phiwiki ITB</span>
+            <span className="font-bold max-lg:hidden">G-Corp ITB</span>
           </Link>
         </div>
 
@@ -98,7 +98,7 @@ export function TopNav({
                     href="/"
                     className="flex items-center gap-2 text-lg font-semibold"
                   >
-                    <span className="font-bold">HIMAFI ITB</span>
+                    <span className="font-bold">G-Corp ITB</span>
                   </Link>
                   <Link href="/about">About</Link>
                   <Link href="/programs">Programs</Link>

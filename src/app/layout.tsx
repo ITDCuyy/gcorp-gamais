@@ -16,9 +16,9 @@ import { api } from "~/trpc/server";
 import { ThemeProvider } from "~/components/theme-provider";
 
 export const metadata: Metadata = {
-  title: "Phiwiki ITB",
-  description: "Phiwiki ITB",
-  icons: [{ rel: "icon", url: "/phiwiki.jpg" }],
+  title: "G-Corp ITB",
+  description: "G-Corp ITB",
+  icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
 export default async function RootLayout({
