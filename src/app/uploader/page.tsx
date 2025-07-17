@@ -81,7 +81,7 @@ export default function HomePage() {
 
       xhr.onload = () => {
         if (xhr.status === 200) {
-          const playerUrl = `https://phiwiki.himafiitb.com/play?video=${encodeURIComponent(newFilename)}`;
+          const playerUrl = `https://gcorp.gamaisitb.org/play?video=${encodeURIComponent(newFilename)}`;
           setQrUrl(playerUrl);
         } else {
           throw new Error(`Upload failed with status: ${xhr.status}`);
@@ -142,7 +142,7 @@ export default function HomePage() {
             </span>
             <div className="pl-4 text-muted-foreground">
               1. yg nonton di mobile tidak kehabisan kuota <br />
-              2. phiwiki gk perlu bayar banyak storage ke cloudflare <br />
+              2. gcorp gk perlu bayar banyak storage ke cloudflare <br />
               3. yg wifi kosannya jelek bisa nonton
             </div>
           </CardDescription>
