@@ -126,11 +126,11 @@ export default function CreateLinkPage() {
               <AlertTitle className="font-bold">Link Ready!</AlertTitle>
               <AlertDescription>
                 <a
-                  href={`https://link.gamaisitb.com/${finalLink.slug}`}
+                  href={`https://link.gamaisitb.org/${finalLink.slug}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="break-all font-mono text-foreground hover:underline"
-                >{`https://link.gamaisitb.com/${finalLink.slug}`}</a>
+                >{`https://link.gamaisitb.org/${finalLink.slug}`}</a>
                 <p className="break-all text-sm text-gray-500">
                   Redirects to: {finalLink.url}
                 </p>
@@ -138,7 +138,7 @@ export default function CreateLinkPage() {
             </div>
             <div className="ml-auto flex-shrink-0 rounded-lg bg-white p-2">
               <QRCodeSVG
-                value={`https://link.gamaisitb.com/${finalLink.slug}`}
+                value={`https://link.gamaisitb.org/${finalLink.slug}`}
                 size={80}
               />
             </div>
