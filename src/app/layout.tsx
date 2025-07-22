@@ -18,7 +18,7 @@ import { ThemeProvider } from "~/components/theme-provider";
 export const metadata: Metadata = {
   title: "G-Corp ITB",
   description: "G-Corp ITB",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  icons: [{ rel: "icon", url: "/favicon.webp" }],
 };
 
 export default async function RootLayout({
